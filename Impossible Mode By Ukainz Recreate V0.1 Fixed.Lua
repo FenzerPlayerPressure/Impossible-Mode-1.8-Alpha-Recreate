@@ -83,14 +83,14 @@ loadstring(game:HttpGet('https://pastefy.app/YMa2CPBC/raw'))()
 
                end)()
 
--- Depth
+-- ???
 coroutine.wrap(function()
     while true do
-        wait(89)
+        wait(390)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-loadstring(game:HttpGet('https://pastefy.app/JztYAL4m/raw'))()
+loadstring(game:HttpGet('https://pastefy.app/1xxpTxo3/raw'))()
 
-               end
+end
 
-               end)()
+end)()
