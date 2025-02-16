@@ -25,18 +25,43 @@ Lighting.FogColor = Color3.new(0, 0, 0)
 --Crucifix
 loadstring(game:HttpGet("https://pastefy.app/47y6mHgC/raw"))()
 
--- goofy screech
-game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(255, 0, 0)
+-- impaled screech
+game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(247, 4, 4)
 game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.SoundId = "rbxassetid://7492033495"
 game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Caught.PlaybackSpeed = 1.6
 game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.Screech.Attack.SoundId = "rbxassetid://8080941676"
 
--- goofy hide
+-- imapled hide
 game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.HideMonster.Scare.SoundId = "rbxassetid://9126213741"
 
--- goofy spider
+--impaled spider
 game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.SpiderJumpscare.Scare.SoundId = "rbxassetid://8080941676"
 
+--impaled rush and ambush 
+Color3.new(0.407843, 0, 0)),
+ 
+            ColorSequenceKeypoint.new(0.407843, Color3.new(0.407843, 0, 0)),
+ 
+            ColorSequenceKeypoint.new(1, Color3.new(0.407843, 0, 0))
+ 
+        })
+ 
+        game.Workspace.RushMoving.RushNew.Attachment.ParticleEmitter.Color = ColorSequence.new({
+ 
+            ColorSequenceKeypoint.new(0, Color3.new(1, 0, 0)),
+ 
+            ColorSequenceKeypoint.new(0, Color3.new(1, 0, 1)),
+ 
+            ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))
+ 
+        })
+ 
+		--
+ 
+		game.Workspace.RushMoving.RushNew.PlaySound.PlaybackSpeed = 0.05
+ 
+		game.Workspace.RushMoving.RushNew.Footsteps.PlaybackSpeed = 0.1
+ 
 -- blink
 coroutine.wrap(function()
     while true do
