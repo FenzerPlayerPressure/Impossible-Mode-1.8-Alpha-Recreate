@@ -1,6 +1,9 @@
 require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Impossible Mode 1.8a (Recreation Edition)",true)
 wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Fuck You Uner>=(",true)
 
+-- Chat Caption
+game.StarterGui:SetCore( "ChatMakeSystemMessage",  { Text = "Impossible Mode 1.8.2 Initiated. Successfully", Color = Color3.fromRGB( 0,255,0 ), Font = nil, FontSize = Enum.FontSize.Size24 } )
+
 --Cave ambience
 local sound = Instance.new("Sound")
 
