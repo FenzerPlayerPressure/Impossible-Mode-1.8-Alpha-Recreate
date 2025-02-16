@@ -22,13 +22,8 @@ Lighting.FogEnd = 50
 Lighting.FogStart = 35
 Lighting.FogColor = Color3.new(0, 0, 0)
 
---Crucifix 
-coroutine.wrap(function()
-    while true do
-        wait(5)
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
-loadstring(game:HttpGet("https://pastefy.app/47y6mHgC/raw"))();
+--Crucifix
+loadstring(game:HttpGet("https://pastefy.app/47y6mHgC/raw"))()
 
 -- goofy screech
 game.ReplicatedStorage.Entities.Screech.Top.Eyes.Color = Color3.fromRGB(255, 0, 0)
