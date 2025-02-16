@@ -37,31 +37,6 @@ game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Mod
 --impaled spider
 game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules.SpiderJumpscare.Scare.SoundId = "rbxassetid://8080941676"
 
---impaled rush and ambush 
-Color3.new(0.407843, 0, 0)),
- 
-            ColorSequenceKeypoint.new(0.407843, Color3.new(0.407843, 0, 0)),
- 
-            ColorSequenceKeypoint.new(1, Color3.new(0.407843, 0, 0))
- 
-        })
- 
-        game.Workspace.RushMoving.RushNew.Attachment.ParticleEmitter.Color = ColorSequence.new({
- 
-            ColorSequenceKeypoint.new(0, Color3.new(1, 0, 0)),
- 
-            ColorSequenceKeypoint.new(0, Color3.new(1, 0, 1)),
- 
-            ColorSequenceKeypoint.new(1, Color3.new(1, 0, 0))
- 
-        })
- 
-		--
- 
-		game.Workspace.RushMoving.RushNew.PlaySound.PlaybackSpeed = 0.05
- 
-		game.Workspace.RushMoving.RushNew.Footsteps.PlaybackSpeed = 0.1
- 
 -- blink
 coroutine.wrap(function()
     while true do
@@ -115,6 +90,19 @@ coroutine.wrap(function()
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet('https://pastefy.app/1xxpTxo3/raw'))()
+
+end
+
+end)()
+
+
+-- Secret Entity (Feisty)
+coroutine.wrap(function()
+    while true do
+        wait(499)
+        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
+        wait(0)
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Jahani-john/mayhem-mode/main/mayhemmode-main/ObfuscatedEntities/Blackout-obfuscated.lua'))()
 
 end
 
